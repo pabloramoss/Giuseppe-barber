@@ -1,175 +1,158 @@
 /* Header */
-.navbar-brand{
-    font-size: 2rem;
-    font-family: 'Bebas Neue', cursive;
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Bebas Neue", cursive;
 }
-.boton{
-    margin-right: 2rem;
+.boton {
+  margin-right: 2rem;
 }
-.nav-item{
-    padding: 0 0 0 3rem;
-
-}
-
-.social-icon{
-    color: #aaaaaa;
+.nav-item {
+  padding: 0 0 0 3rem;
 }
 
-.social-icon:hover{
-    color: white;
+.social-icon {
+  color: #aaaaaa;
+}
+
+.social-icon:hover {
+  color: white;
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("https://d1lmy334kd40d1.cloudfront.net/ie/business_placeholders/barbers-ca320d1eb6bc4d47adfdb4fd5da1d9c2.barbers");
-  
-    /* Set a specific height */
-    min-height: 700px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* The image used */
+  background-image: url("https://d1lmy334kd40d1.cloudfront.net/ie/business_placeholders/barbers-ca320d1eb6bc4d47adfdb4fd5da1d9c2.barbers");
 
-#scissor{
-    transform: rotate(90deg) scale(30%);
-    width: 100px;
-    margin-top: -250px;
-}
-.row{
-    padding-top: 100px;
-    padding-bottom: 200px;
-    
-}
-.cta{
-    text-align: center;
-    font-family: 'Anton', sans-serif;
-    padding: 200px;
-    
+  /* Set a specific height */
+  min-height: 700px;
 
-}
-.fa-whatsapp{
-    padding-right: 1rem;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.cta-btn-text{
-    text-align: center;
-    padding: .5rem 1rem;
-    font-family: Calibri;
-    font-weight: bold;
-    transition: .4s ease-in-out all;
+#scissor {
+  transform: rotate(90deg) scale(27%);
+  width: 50px;
+}
+.cta {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  padding: 200px;
+}
+.fa-whatsapp {
+  padding-right: 1rem;
 }
 
-.cta-btn-text:hover{
-    transform: scale(1.2);
+.cta-btn-text {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-family: Calibri;
+  font-weight: bold;
+  transition: 0.4s ease-in-out all;
+}
 
+.cta-btn-text:hover {
+  transform: scale(1.2);
+}
+
+.schedule-cta {
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .btn-lg {
-    border-radius: 20px;
-    width: 250px;
+  border-radius: 20px;
+  width: 250px;
 }
-.btn-lg:hover{
-    background-color: red;
+.btn-lg:hover {
+  background-color: lightgreen;
 }
-.schedule{
-    background-color: black;
+.schedule {
+  background-color: black;
 }
-.schedule-h2{
-    font-size: 1.5rem;
-    text-align: center;
-    color: white;
+.schedule-h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
 }
-.schedule-text{
-    font-size: 2rem;
-    text-align: center;
-    color: white;
+.schedule-text {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
 }
-b{
-    background-color: black;
+b {
+  background-color: black;
 }
-p{
-    font-size: 1.5rem;
-}
-
-.cta{
-    /* margin-top: 4rem; */
+p {
+  font-size: 1.5rem;
 }
 
-
-.background-image{
-    background-image: url(https://d1lmy334kd40d1.cloudfront.net/ie/business_placeholders/barbers-ca320d1eb6bc4d47adfdb4fd5da1d9c2.barbers);
-    height: 1000px;
+.background-image {
+  background-image: url(https://d1lmy334kd40d1.cloudfront.net/ie/business_placeholders/barbers-ca320d1eb6bc4d47adfdb4fd5da1d9c2.barbers);
+  height: 1000px;
 }
 
+.p-horarios {
+  margin: auto 5%;
+  font-size: 30px;
+  text-justify: right;
 }
 
-.p-horarios{
-    margin: auto 5%;
-    font-size: 30px;
-    text-justify: right;
+.h1-horarios {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bolder;
 }
 
-.h1-horarios{
-    color: white;
-    text-align: center;
-    font-size: 45px;
-    font-weight: bolder;
+.horarios {
+  padding-top: 45px;
+  padding-bottom: 23px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+.cta-btn {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.box-cta {
+  width: 600px;
+  height: 300px;
+  /* margin: auto 50px; */
+  /* padding: 100px 100px; */
+}
+.schedule {
+  margin-top: 200px;
+  background-color: gray;
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px black;
+}
+.videos-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  padding: 4%;
 }
 
-.horarios{
-    padding-top: 45px;
-    padding-bottom: 23px;
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-}
-.cta-btn{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.box-cta{
-    width: 600px;
-    height: 300px;
-    /* margin: auto 50px; */
-    /* padding: 100px 100px; */
-
-}
-.schedule{
-    margin-top: 200px;
-    background-color: gray;
-    border-radius: 30px;
-    box-shadow: 5px 5px 20px black;
-
-}
-.videos-title{
-    text-align: center;
-    font-size: 35px;
-    font-weight: bolder;
-    padding: 4%;
+.videos {
+  background-color: lightgoldenrodyellow;
+  padding-bottom: 3%;
 }
 
-.videos{
-    background-color: lightgoldenrodyellow;
-    padding-bottom: 3%;
+.channel {
+  text-align: center;
+}
+.btn-yt:hover {
+  background-color: lightgreen;
+  color: black;
 }
 
-.channel{
-    padding-top: 2%;
-    text-align: center;
+#about {
+  height: 400px;
+  margin: 8%;
 }
-.btn-yt:hover{
-    background-color: red;
-    color: black;
-}
-.about{
-    margin: 10%
-}
-.about-img{
-    height: 400px;
-    margin: 0 8%;
-}
-

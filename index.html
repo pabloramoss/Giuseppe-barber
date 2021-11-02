@@ -34,13 +34,13 @@
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galeria">Galería</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Galería</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
               </li>
             </ul>
                 <!--Social media-->
@@ -64,20 +64,21 @@
     <div class="parallax"></div>
     <div>
         <h1 class="bg-dark m-0 text-light text-center">---------------</h1> <!--Agregar divisor con puntos y un icono en el medio-->
-        <h1 class="bg-dark text-light text-center m-0">HORARIOS</h1>
+        <!-- <h1 class="bg-dark text-light text-center m-0">HORARIOS</h1> -->
     </div>
-    <section class="bg-dark text-light">
+    <section class="bg-dark  schedule-cta text-light">
         <div class="container">
-            <div class="row">
-                <div class="col d-flex align-items-center">
+            <div class="row d-flex align-items-center">
+                <h1 class="col-12 text-center">HORARIOS</h1>
+                <div class="col-12 col-md-4 fs-sm-1">
                     <p>Atendemos de lunes a sábado<br>de mañana desde las 10:00 a 12:30<br>por la tarde desde las 15:30 a 19:30</p>
                 </div>
-                <div class="col" id="scissor"><img src="img/scissor.png" alt="scissor"></div>
-                <div class="col d-flex align-items-center">
+                <div class="col d-none d-md-block mb-5" id="scissor"><img src="img/scissor.png" alt="scissor"></div>
+                <div class="col-12 col-md-4 pt-5 pt-md-0">
                     <div>
                         <h1>Reservá tu turno por whatsapp</h1>
                         <div>
-                            <a href="https://wa.link/g6latk" target="_blank" class="btn btn-light btn-lg cta-btn-text" role="button" aria-pressed="true"><i class="fab fa-whatsapp fa-1x"></i>Reservar</a>
+                            <a href="https://wa.link/g6latk" target="_blank" class="btn btn-light btn-lg cta-btn-text mt-3" role="button" aria-pressed="true"><i class="fab fa-whatsapp fa-1x"></i>Reservar</a>
                         </div>
                     </div>
                 </div>
@@ -85,9 +86,56 @@
         </div>
     </section>
 
-<div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur libero, suscipit repellendus dicta voluptatum, quaerat modi odio tempore hic minus doloremque dolore ex harum a eaque quia architecto, ipsum esse.</p>
-
+<div class="">
+    <h1 class="h1 text-center pt-5">Videos del canal</h1>
+    <div class="container">
+        <div class="row py-5 row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="col">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/1N_HisIMc8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              </div>
+          </div>
+          <div class="col">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/7x6UvBKk1eY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              </div>
+          </div>
+          <div class="col mx-sm-auto">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/Ca6hNmNiQrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              </div>
+          </div>
+        </div>
+      </div>
+      <div class="channel">
+        <a class="btn btn-primary btn-lg btn-yt" href="https://www.youtube.com/channel/UCjRK_qOs3aCY69Tf42T48tQ" target="_blank">Canal de youtube</a>
+    </div>
 </div>
+<section class="about bg-dark text-light">
+    <div class="container">
+        <div class="row mt-5 pt-5">
+            <div class="col"><img src="img/foto-about.jpg" id="about" alt="about"></div>
+            <div class="col">
+                <h2>Le damos estilo a Rincón</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sapiente eaque ad, vel optio deserunt expedita illum quasi accusamus autem maxime, nihil quisquam molestiae rerum vitae deleniti iusto, esse reiciendis?</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="galeria">
+    <div class="conteiner">
+        <div class="row">
+            <div class="col-3">
+                <img src="./img/foto1.jpg" alt="foto-1">
+            </div>
+            <div class="col-3">
+                <img src="./img/foto2.jpg" alt="foto-2">
+            </div>
+            <div class="col-3">
+                <img src="./img/foto3.jpg" alt="foto-3">
+            </div>
+            <div class="col-3">
+                <img src="./img/foto4.jpg" alt="foto-4">
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
