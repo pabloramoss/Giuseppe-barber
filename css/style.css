@@ -158,9 +158,9 @@ p {
 }
 
 /* gallery style */
-img {
+/* img {
   max-width: 100%;
-}
+} */
 .gallery {
   background-color: #dbddf1;
   padding: 80px 0;
@@ -176,4 +176,46 @@ img {
   width: 100%;
 }
 
-/* gallery style end */
+/* gallery end */
+
+/* footer start */
+/*Font-awesome integration*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*Google font integration*/
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+#contact {
+  background-color: #f1f1f1;
+  font-family: "Roboto", sans-serif;
+}
+
+#contact .well {
+  margin-top: 30px;
+  border-radius: 0;
+}
+
+#contact .form-control {
+  border-radius: 0;
+  border: 2px solid #1e1e1e;
+}
+
+#contact button {
+  border-radius: 0;
+  border: 2px solid #1e1e1e;
+}
+
+#contact .row {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  #contact iframe {
+    margin-bottom: 15px;
+  }
+}
+/* footer end */
+
+#map {
+  width: 600px;
+  height: 450px;
+}
