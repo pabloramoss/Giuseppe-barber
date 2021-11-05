@@ -9,12 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Fontawesome icons-->
     <script src="https://kit.fontawesome.com/cffcb47815.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -22,7 +17,6 @@
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <!-- <a class="fas fa-cut fa-2x" href="#"></a> -->
           <a class="navbar-brand" href="#">Giuseppe</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,7 +37,7 @@
               </li>
             </ul>
                 <!--Social media-->
-            <div class="social-icon">
+            <div class="social-icon container-fluid">
                 <ul class="navbar-nav">
                     <li class="nav-item p-2">
                         <a class="nav-link" href="https://www.instagram.com/barberiagiuseppe/" target="_blank">
@@ -59,16 +53,16 @@
           </div>
         </div>
     </nav>
-    <!-- Navbar end -->     
-<!-- Background image header-->
+    <!-- Navbar end -->    
+
+<!-- Header start-->
     <div class="parallax"></div>
     <div>
         <h1 class="bg-dark m-0 text-light text-center">---------------</h1> <!--Agregar divisor con puntos y un icono en el medio-->
-        <!-- <h1 class="bg-dark text-light text-center m-0">HORARIOS</h1> -->
     </div>
     <section class="bg-dark  schedule-cta text-light">
         <div class="container">
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center pb-5 pb-md-0"> <!--se le agrego un pb para que el boton no quede pegado al piso en smartphones, verificar si funciona-->
                 <h1 class="col-12 text-center">HORARIOS</h1>
                 <div class="col-12 col-md-4 fs-sm-1">
                     <p>Atendemos de lunes a sábado<br>de mañana desde las 10:00 a 12:30<br>por la tarde desde las 15:30 a 19:30</p>
@@ -86,7 +80,10 @@
             </div>
         </div>
     </section>
+<!-- Header end -->
 
+
+<!-- Videos canal start -->
 <div class=" pb-5" id="channel">
     <h1 class="h1 text-center pt-5">Videos del canal</h1>
     <div class="container">
@@ -97,24 +94,29 @@
           </div>
           <div class="col">
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube.com/embed/7x6UvBKk1eY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              </div>
+                <iframe src="https://www.youtube.com/embed/7x6UvBKk1eY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              
+              </div>
           </div>
           <div class="col mx-sm-auto">
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube.com/embed/Ca6hNmNiQrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              </div>
+                <iframe src="https://www.youtube.com/embed/Ca6hNmNiQrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              
+              </div>
           </div>
         </div>
       </div>
       <div class="channel">
-        <a class="btn btn-primary btn-lg btn-yt" href="https://www.youtube.com/channel/UCjRK_qOs3aCY69Tf42T48tQ" target="_blank">Canal de youtube</a>
+        <a class="btn btn-primary btn-lg btn-yt text-center" href="https://www.youtube.com/channel/UCjRK_qOs3aCY69Tf42T48tQ" target="_blank">Canal de youtube</a>
         <!-- centrar el boton del canal -->
     </div>
 </div>
+<!-- Videos canal end -->
+
+<!-- About section start -->
 <section class="about bg-dark text-light" id="about">
     <div class="container">
         <div class="row pt-5">
-            <div class="col"><img id="img-about" src="img/foto-about.jpg" alt="about"></div>
-            <div class="col pt-5">
+            <div class="col-12 col-md-6"><img id="img-about" src="img/foto-about.jpg" alt="about"></div>
+            <div class="col-12 col-md-6 pt-5">
                 <h2>Le damos estilo a Rincón</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sapiente eaque ad, vel optio deserunt expedita illum quasi accusamus autem maxime, nihil quisquam molestiae rerum vitae deleniti iusto, esse reiciendis?</p>
                 <!-- para dispositivos smartphones doscolumnas (foto y texto al lado) es muy chico, poner solo texto o uno arriba del otro -->
@@ -122,8 +124,9 @@
         </div>
     </div>
 </section>
+<!-- About section end -->
 
-<!-- gallery image start -->
+<!-- Gallery image start -->
 <section id="galeria" class="gallery min-vh-100 m-0">
   <h1 class="text-center pb-4">Galería</h1>
     <div class="container-lg">
@@ -164,7 +167,6 @@
  <div class="modal-dialog modal-dialog-centered modal-lg">
    <div class="modal-content">
      <div class="modal-header">
-       <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
      </div>
      <div class="modal-body">
@@ -176,6 +178,7 @@
 <!-- gallery image end -->
 <!------ Include the above in your HEAD tag ---------->
 
+<!-- Contact section end -->
 <section id="contact" class="bg-dark text-light py-5 m-0>
   <div class="container">
     <div class="well well-sm">
@@ -195,18 +198,20 @@
     </div>
   </div>
 </section>
+<!-- Contact section end -->
 
+
+<!-- Footer start -->
 <footer class="bg-dark text-light pb-5">
-  <p class="text-center footer-text fs-6">Copyright @2022 | Designed With by <a href="#">Your Company Name</a></p>
-  
+  <p class="text-center footer-text fs-6">Copyright @2022 | Designed by <a href="#">Pablo Ramos</a></p>
   <ul class="social_footer_ul">
   <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
   <li><a href="http://webenlance.com"><i class="fab fa-youtube"></i></a></li>
   <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
   </ul>
   </div>
-
 </footer>
+<!-- Footer end -->
 
 
 <script src="js/bootstrap.bundle.min.js"></script>
