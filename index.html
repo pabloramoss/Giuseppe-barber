@@ -14,7 +14,7 @@
 </head>
 <body>
 
-    <!-- Navbar -->
+    <!-- Navbar start -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Giuseppe</a>
@@ -60,22 +60,19 @@
     <div>
         <h1 class="bg-dark m-0 text-light text-center">---------------</h1> <!--Agregar divisor con puntos y un icono en el medio-->
     </div>
-    <section class="bg-dark  schedule-cta text-light">
+    <section class="bg-dark text-light">
         <div class="container">
-            <div class="row d-flex align-items-center pb-5 pb-md-0"> <!--se le agrego un pb para que el boton no quede pegado al piso en smartphones, verificar si funciona-->
+            <div class="row d-flex align-items-center pb-5 pb-md-0">
                 <h1 class="col-12 text-center">HORARIOS</h1>
-                <div class="col-12 col-md-4 fs-sm-1">
-                    <p>Atendemos de lunes a sábado<br>de mañana desde las 10:00 a 12:30<br>por la tarde desde las 15:30 a 19:30</p>
+                <div class="col-12 col-md-4">
+                    <p id="horarios">Atendemos de lunes a sábado<br>de mañana desde las 10:00 a 12:30<br>por la tarde desde las 15:30 a 19:30</p>
                 </div>
                 <div class="col d-none d-md-block mb-5" id="scissor"><img src="img/scissor.png" alt="scissor"></div>
-                <div class="col-12 col-md-4 pt-5 pt-md-0">
-                    <div>
+                <div  id="cta" class="col-12 col-md-4 pt-5 pt-md-0">
                         <h1>Reservá tu turno por whatsapp</h1>
                         <div>
                             <a href="https://wa.link/g6latk" target="_blank" class="btn btn-light btn-lg cta-btn-text mt-3" role="button" aria-pressed="true"><i class="fab fa-whatsapp fa-1x"></i>Reservar</a>
-                            <!-- El boton reservar esta pegado a la siguiente seccion en smartphones, darle un padding para dispositivos chicos -->
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -84,8 +81,8 @@
 
 
 <!-- Videos canal start -->
-<div class=" pb-5" id="channel">
-    <h1 class="h1 text-center pt-5">Videos del canal</h1>
+<div class="text-center pb-5" id="channel">
+    <h1 class="h1 pt-5">Videos del canal</h1>
     <div class="container">
         <div class="row py-5 row-cols-1 row-cols-sm-2 row-cols-md-3">
           <div class="col">
@@ -106,20 +103,19 @@
       </div>
       <div class="channel">
         <a class="btn btn-primary btn-lg btn-yt text-center" href="https://www.youtube.com/channel/UCjRK_qOs3aCY69Tf42T48tQ" target="_blank">Canal de youtube</a>
-        <!-- centrar el boton del canal -->
     </div>
 </div>
 <!-- Videos canal end -->
 
 <!-- About section start -->
 <section class="about bg-dark text-light" id="about">
+    <h1 class="text-center pt-5">Nosotros</h1>
     <div class="container">
-        <div class="row pt-5">
-            <div class="col-12 col-md-6"><img id="img-about" src="img/foto-about.jpg" alt="about"></div>
-            <div class="col-12 col-md-6 pt-5">
+        <div class="row">
+            <div class="col-12 col-lg-6"><img id="about-img" src="img/foto-about.jpg" alt="about image"></div>
+            <div class="col-12 col-lg-6 pt-5">
                 <h2>Le damos estilo a Rincón</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sapiente eaque ad, vel optio deserunt expedita illum quasi accusamus autem maxime, nihil quisquam molestiae rerum vitae deleniti iusto, esse reiciendis?</p>
-                <!-- para dispositivos smartphones doscolumnas (foto y texto al lado) es muy chico, poner solo texto o uno arriba del otro -->
+                <p id="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sapiente eaque ad, vel optio deserunt expedita illum quasi accusamus autem maxime, nihil quisquam molestiae rerum vitae deleniti iusto, esse reiciendis?</p>
             </div>
         </div>
     </div>
@@ -128,7 +124,7 @@
 
 <!-- Gallery image start -->
 <section id="galeria" class="gallery min-vh-100 m-0">
-  <h1 class="text-center pb-4">Galería</h1>
+  <h1 class="text-center pb-5">Galería</h1>
     <div class="container-lg">
        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
           <div class="col">
@@ -175,10 +171,9 @@
    </div>
  </div>
 </div>
-<!-- gallery image end -->
-<!------ Include the above in your HEAD tag ---------->
+<!-- Gallery image end -->
 
-<!-- Contact section end -->
+<!-- Contact section start -->
 <section id="contact" class="bg-dark text-light py-5 m-0>
   <div class="container">
     <div class="well well-sm">
@@ -188,12 +183,11 @@
 	  <div class="col-lg-7 text-center">
         <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.0644257679155!2d-60.5753830848474!3d-31.604694381341837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDM2JzE2LjkiUyA2MMKwMzQnMjMuNSJX!5e0!3m2!1ses-419!2sar!4v1635970466419!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy"></iframe>
       </div>
-      <div class="col-lg-5 fs-5 my-auto">
-          <div>
-            <p class="py-3"><i class="fa fa-map-marker pe-2"></i><strong>Dirección: </strong>San Martín 1990 - San José del Rincón</p>
-            <p class="py-3"><i class="fa fa-phone pe-2"></i><strong>Teléfono: </strong>0342 501-8040</p>
-            <p class="py-3"><i class="fa fa-envelope pe-2"></i><strong>Mail: </strong>miltonramos@gmail.com</p>
-          </div>
+      <div class="col-lg-5 pt-5 pt-lg-auto">
+            <p class="p-3 contact-text"><i class="fa fa-map-marker pe-2"></i><strong>Dirección: </strong>San Martín 1990 - San José del Rincón</p>
+            <p class="p-3 contact-text"><i class="fa fa-phone pe-2"></i><strong>Teléfono: </strong>0342 501-8040</p>
+            <p class="p-3 contact-text"><i class="fa fa-envelope pe-2"></i><strong>Mail: </strong>miltonramos@gmail.com</p>
+            <!-- Falta poner un media querie para cambiar el font size del texto direccion mail tel para tamaño menores a lg, pero el css no me da bola -->
       </div>
     </div>
   </div>
@@ -202,8 +196,8 @@
 
 
 <!-- Footer start -->
-<footer class="bg-dark text-light pb-5">
-  <p class="text-center footer-text fs-6">Copyright @2022 | Designed by <a href="#">Pablo Ramos</a></p>
+<footer class="bg-dark text-light pb-5 text-center">
+  <p class="footer-text fs-6">Copyright @2022 | Designed by <a href="#">Pablo Ramos</a></p>
   <ul class="social_footer_ul">
   <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
   <li><a href="http://webenlance.com"><i class="fab fa-youtube"></i></a></li>

@@ -1,0 +1,15 @@
+.container {
+  border: red 3px solid;
+  position: relative;
+  height: 500px;
+  width: 500px;
+}
+
+h1 {
+  background-color: red;
+}
+.container h1 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
