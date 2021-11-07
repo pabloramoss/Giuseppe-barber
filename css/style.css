@@ -17,11 +17,9 @@
 .social-icon:hover {
   color: white;
 }
-#hero {
-  position: absolute;
-}
+
 .parallax {
-  /* The image used */
+  /* image used */
   background-image: url("https://d1lmy334kd40d1.cloudfront.net/ie/business_placeholders/barbers-ca320d1eb6bc4d47adfdb4fd5da1d9c2.barbers");
 
   /* Set a specific height */
@@ -33,12 +31,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-#title {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 #scissor {
   transform: rotate(90deg) scale(27%);
   width: 50px;
@@ -142,8 +135,6 @@ p {
 .box-cta {
   width: 600px;
   height: 300px;
-  /* margin: auto 50px; */
-  /* padding: 100px 100px; */
 }
 .schedule {
   margin-top: 200px;
@@ -177,11 +168,7 @@ p {
   width: 70%;
   margin: 8%;
 }
-
-/* gallery style */
-/* img {
-  max-width: 100%;
-} */
+/* gallery start */
 .gallery {
   background-color: #dbddf1;
   padding: 80px 0;
@@ -199,7 +186,7 @@ p {
 
 /* gallery end */
 
-/* footer start */
+/* contact start */
 /*Font-awesome integration*/
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 /*Google font integration*/
@@ -234,13 +221,14 @@ p {
     margin-bottom: 15px;
   }
 }
-/* footer end */
 
 #map {
   width: 90%;
   height: 100%;
 }
+/* contact end */
 
+/* footer start */
 .social_footer_ul {
   display: table;
   margin: 15px auto 0 auto;
@@ -262,7 +250,4 @@ p {
   height: 20px;
   text-align: center;
 }
-
-/* .footer-text {
-  font-size: 14px;
-} */
+/* footer end */
