@@ -17,19 +17,28 @@
 .social-icon:hover {
   color: white;
 }
-
+.header {
+  font-family: "Bebas Neue", cursive;
+}
 .parallax {
-  /* image used */
-  background-image: url("https://d1lmy334kd40d1.cloudfront.net/ie/business_placeholders/barbers-ca320d1eb6bc4d47adfdb4fd5da1d9c2.barbers");
-
-  /* Set a specific height */
-  min-height: 700px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("https://d1lmy334kd40d1.cloudfront.net/ie/business_placeholders/barbers-ca320d1eb6bc4d47adfdb4fd5da1d9c2.barbers")
+    no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  min-height: 100vh;
+}
+.parallax-title {
+  color: #0c5d92;
+  font-size: 10rem;
+  padding-top: 35vh;
+
+  /* transform: translate(-50%, -50%); */
+}
+h3 {
+  color: #0c5d92;
 }
 
 #scissor {

@@ -1,8 +1,8 @@
 .container {
   border: red 3px solid;
   position: relative;
-  height: 500px;
-  width: 500px;
+  /* height: 500px; */
+  width: 100%;
 }
 
 h1 {
@@ -11,5 +11,29 @@ h1 {
 .container h1 {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: blue;
+}
+.parallax {
+  background: url("https://d1lmy334kd40d1.cloudfront.net/ie/business_placeholders/barbers-ca320d1eb6bc4d47adfdb4fd5da1d9c2.barbers")
+    no-repeat fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+}
+
+h3 {
+  background-color: blue;
+  font-size: 5rem;
 }
