@@ -30,21 +30,57 @@
   background-size: cover;
   min-height: 100vh;
 }
-.parallax-title {
-  color: #0c5d92;
-  font-size: 10rem;
-  padding-top: 35vh;
 
-  /* transform: translate(-50%, -50%); */
+.container-title {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
-h3 {
+
+.container-title span {
   color: #0c5d92;
+  text-transform: uppercase;
+  display: block;
+}
+
+.parallax-title {
+  font-size: 6rem;
+  font-weight: 700;
+  letter-spacing: 8px;
+  position: relative;
+  animation: fade 5s 1;
+  margin-bottom: -30px;
+}
+.parallax-subtitle {
+  font-size: 2rem;
+  animation: fade 3s 1;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .parallax-title {
+    font-size: 4rem;
+  }
+  .parallax-subtitle {
+    font-size: 1.5rem;
+  }
 }
 
 #scissor {
   transform: rotate(90deg) scale(27%);
   width: 50px;
 }
+
 .cta {
   text-align: center;
   font-family: "Anton", sans-serif;
