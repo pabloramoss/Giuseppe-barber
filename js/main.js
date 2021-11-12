@@ -8,5 +8,3 @@
    	  myModal.show();
    }
  })
-
-
