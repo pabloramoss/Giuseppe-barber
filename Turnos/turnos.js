@@ -3,10 +3,10 @@
 const cbox = document.querySelectorAll(".hover");
 let turno = false;
 
+
  for (let i = 0; i < cbox.length; i++) {
      cbox[i].addEventListener("click", function() {
       //  document.querySelectorAll('.hover').classList.remove('reservado');
-       cbox[i].innerHTML = 'Reservado';
        cbox[i].innerHTML = '<button class="cancel">X</button>';
        cbox[i].classList.add('reservado');
        cbox[i].classList.remove('hover');
